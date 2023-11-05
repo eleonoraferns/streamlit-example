@@ -12,15 +12,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 
-# x = radius * np.cos(theta)
-# y = radius * np.sin(theta)
 
-# df = pd.DataFrame({
-#     "x": x,
-#     "y": y,
-#     "idx": indices,
-#     "rand": np.random.randn(num_points),
-# })
 st.text_input('Input', 'My')
 st.altair_chart(alt.Chart(df, height=700, width=700)
     .mark_point(filled=True)
