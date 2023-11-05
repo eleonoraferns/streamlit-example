@@ -21,7 +21,7 @@ df = pd.DataFrame({
     "idx": indices,
     "rand": np.random.randn(num_points),
 })
-st.text_input('Input')
+st.text_input('Input', 'My')
 st.altair_chart(alt.Chart(df, height=700, width=700)
     .mark_point(filled=True)
     .encode(
